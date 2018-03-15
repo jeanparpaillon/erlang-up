@@ -1,0 +1,8 @@
+*~
+*.beam
+/ebin
+/*.d
+/.erlang.mk
+/deps
+/logs
+/test/*.spec

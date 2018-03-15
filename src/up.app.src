@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, up,
+ [
+  {id, "git"},
+  {vsn, "0.1"},
+  {description, "Cluster utilities for erlang"},
+  %%{mod, {up, []}},
+  {modules, []},
+  {registered, [
+	       ]},
+  {applications,
+   [
+    kernel,
+    stdlib,
+    inets
+   ]},
+  {env, []}
+ ]}.
